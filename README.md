@@ -12,11 +12,12 @@ This simple Node script implements your html-stylesheet into inline-styles. I re
 ```
 
 After the script runs, `class="foo"` is going to be replaced with `style="background:red;"`. That's kinda neat for some purpose.
+Also, check out the default `input.html` and `output.html`. They contain examples that may help you understand how to use this script.
 
 ##Usage
 - Make sure [node](https://nodejs.org/) is installed
 - Place your markup and `<style>` in `input.html`
 - run `node app.js`
-- Your output is dumped into output.html.
+- Your output is dumped into `output.html`.
 
 This node script doesn't have any dependencies at all. Nice!
